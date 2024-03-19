@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.LoginBorder *{
+   
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.LoginBorder{
+    height: 100vh;
+width: 100vw;  
+  display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(https://miro.medium.com/v2/resize:fit:4800/format:webp/1*ydhn1QPAKsrbt6UWfn3YnA.jpeg);
+    /* opacity: 0.8; */
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
